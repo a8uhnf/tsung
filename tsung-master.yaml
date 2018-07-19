@@ -14,8 +14,8 @@ spec:
   sessionAffinity: None
   type: ClusterIP
 ---
-apiVersion: apps/v1beta1
 kind: StatefulSet
+apiVersion: apps/v1beta2
 metadata:
   name: tsung-master
 spec:
